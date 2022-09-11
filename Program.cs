@@ -1,18 +1,12 @@
-﻿// Выбор максимального числа из 3, за основу возьмем что пользователь вводит 3 целых числа
-Console.Write ("Введите первое число: ");
-int number1 = Convert.ToInt32 (Console.ReadLine());
+﻿// Является ли число целым
+Console.Write ("Введите число: ");
+int number1 = int.Parse(Console.ReadLine());
 
-Console.Write ("Введите второе число: ");
-int number2 = Convert.ToInt32 (Console.ReadLine());
-
-Console.Write ("Введите третье число: ");
-int number3 = Convert.ToInt32 (Console.ReadLine());
-
-int max = number1;
-if (number2> number1)
-    max = number2;
-if (number3> max)
-    max = number3;
-
-Console.Write (max);
-
+if (number1 % 2 == 0)
+{
+     Console.Write("Число четное");
+}
+else
+{
+     Console.Write("Число нечетное");
+}
