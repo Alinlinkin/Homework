@@ -1,15 +1,15 @@
-﻿// Выбор большего числа из 2, за основу возьмем что пользователь вводит 2 целых числа
-Console.Write ("Введите первое число: ");
-int number1 = Convert.ToInt32 (Console.ReadLine());
-
-Console.Write ("Введите второе число: ");
-int number2 = Convert.ToInt32 (Console.ReadLine());
-
-if (number1>number2)
+﻿// Вывод четных чисел от 1 до N
+Console.Write("Введите число: ");
+int number1 = int.Parse(Console.ReadLine());
+int startNumber=1;
+int count = Convert.ToInt32(startNumber+1);
+while (count <= number1);
 {
-     Console.Write(number1);
-}
-else
+if (count % 2 == 0)
 {
-     Console.Write(number2);
+    Console.WriteLine($"{count}");
 }
+     startNumber= startNumber+1;
+}
+
+// Не вышло, какая-то проблема с переменной которая должна считать значение числа до N
