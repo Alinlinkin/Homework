@@ -9,10 +9,7 @@ if (number1>number2)
 {
      Console.Write(number1);
 }
-
-else;
+else
 {
      Console.Write(number2);
 }
-
-// Программа не рабоет если первое число отрицательное и больше вторго отрицательного числа (-3,-9)
