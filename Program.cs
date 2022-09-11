@@ -1,4 +1,4 @@
-﻿// Является ли число целым
+﻿// Является ли число четным
 Console.Write ("Введите число: ");
 int number1 = int.Parse(Console.ReadLine());
 
